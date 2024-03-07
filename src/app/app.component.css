@@ -1,0 +1,13 @@
+#demo-project-heading {
+  margin-left: 38%;
+}
+
+#mat-button {
+  margin-left: 42.5%;
+  font-size: 20px;
+  border-color: blue;
+  border-radius: 8px;
+  border-width: medium;
+  border-style: solid;
+  background: red;
+}
