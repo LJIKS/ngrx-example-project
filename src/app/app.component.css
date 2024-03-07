@@ -11,3 +11,9 @@
   border-style: solid;
   background: red;
 }
+
+#enabled-text {
+  margin-left: 30%;
+  margin-top: 3%;
+  font-size: 18px;
+}

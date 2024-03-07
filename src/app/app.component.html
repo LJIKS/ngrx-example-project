@@ -1,2 +1,12 @@
 <h1 id="demo-project-heading">ngrx example project</h1>
-<button mat-button id="mat-button">{{enable}}</button>
+<button
+  mat-button
+  id="mat-button"
+(click)="changeText()">
+  {{buttonText}}
+</button>
+<p
+  *ngIf="isEnabled"
+  id="enabled-text">
+  Dieser text ist nur zu sehen, wenn der Button 'enabled' ist.
+</p>
