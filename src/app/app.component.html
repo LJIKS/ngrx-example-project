@@ -10,3 +10,8 @@
   id="enabled-text">
   Dieser text ist nur zu sehen, wenn der Button 'enabled' ist.
 </p>
+<p
+  *ngIf="!isEnabled"
+  id="disabled-text">
+  Dieser text ist nur zu sehen, wenn der Button 'disabled' ist.
+</p>
